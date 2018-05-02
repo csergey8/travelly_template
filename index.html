@@ -1,33 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Open+Sans:200,300,400" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Travelly</title>
 </head>
+
 <body>
     <header class="header" id="header">
         <div class="container">
             <div class="row">
-                <div class="col-lg-2">
-                    <a class="logo">
-                        <img class="logo__img"  src="./img/logo.png"/>
-                    </a>
-                </div>
-                <div class="col-lg-1 hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <div class="header__menu">
+                    <div class="col-lg-2">
+                        <a class="logo">
+                            <img class="logo__img" src="./img/logo.png" />
+                        </a>
+                    </div>
+                    <div class="col-lg-1 pull-right hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                
+                <div class="col-lg-6 h-100 justify-content-center align-items-center">
+                    <div class="header__intro">
+                        <div class="header__intro--title">
+                            Where will you go next?
+                        </div>
+                        <input type="text" class="header__intro--input" placeholder="Start typing..." />
+                        <button class="btn header__intro--btn">Go</button>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
-    
+    <section class="destinations">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="destinations__title">
+                        Top destinations
+                    </div>
+                    <div class="destinations__text">
+                        Some of the top destinations for your next summer adventure.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="destinations__proposal">
+                        <img class="destinations__proposal--image" src="./img/img1.jpg"></img>
+                        <div class="destinations__proposal--title">
+                            Amazing australia
+                        </div>
+                        <div class="destinations__proposal--text">
+                            Become inspired to travel to Australia. Discover fantastic things to do & places to go.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="destinations__proposal">
+                        <img class="destinations__proposal--image" src="./img/img2.jpg"></img>
+                        <div class="destinations__proposal--title">
+                            Ancient south america
+                        </div>
+                        <div class="destinations__proposal--text">
+                            Become inspired to travel to South America. Discover fantastic things to do & places to go.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="destinations__proposal">
+                        <img class="destinations__proposal--image" src="./img/img3.jpg"></img>
+                        <div class="destinations__proposal--title">
+                            Modern north america
+                        </div>
+                        <div class="destinations__proposal--text">
+                            Become inspired to travel to North America. Discover fantastic things to do & places to go.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="destinations__proposal">
+                        <img class="destinations__proposal--image" src="./img/img4.jpg"></img>
+                        <div class="destinations__proposal--title">
+                            Clasic Europe
+                        </div>
+                        <div class="destinations__proposal--text">
+                            Become inspired to travel to Europe. Discover fantastic things to do & places to go.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
+
 </html>

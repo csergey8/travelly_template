@@ -1,0 +1,46 @@
+.destinations {
+    height: 52.5rem;
+    background-color: #eeeeee;
+
+    &__title {
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        font-weight: 400;
+        margin-top: 5.9rem;
+        font-family: $font-secondary;
+    }
+
+    &__text {
+        color: #8b8b8b;
+        font-size: 1.5rem;
+        margin-bottom: 3.8rem;
+    }
+
+    &__proposal {
+        background-color: #fff;
+        width: 100%;
+        border-bottom: 1px solid #e1e0d8;
+
+
+        &--image {
+            width: 26.3rem;
+            height: 20rem;
+        }
+
+        &--title {
+            font-family: $font-secondary;
+            font-size: 1.4rem;
+            font-weight: 400;
+            width: 100%;
+            width: 27rem;
+            padding: 2rem;
+        }
+
+        &--text {
+            font-size: 1.3rem;
+            color: #8b8b8b;
+            padding: 0 2rem 2rem 2rem;
+        }
+    }
+}
+

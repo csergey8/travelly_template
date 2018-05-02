@@ -1,4 +1,5 @@
-
+$font-primary: "Open Sans", sans-serif;
+$font-secondary: "Montserrat", sans-serif;
 
 *,
 *::before,
@@ -14,4 +15,8 @@ html {
     // @media screen and (max-width: $bp-largest) {
     //     font-size: 50%;
     // }
+}
+
+body {
+    font-family: $font-primary;
 }
