@@ -8,8 +8,9 @@
 
     &__intro {
         width: 100%;
-        margin: 0 auto;
         text-align: center;
+        position: relative;
+        padding-top: 10%;
 
         &--title {
             font-size: 5.2rem;
@@ -23,6 +24,7 @@
             height: 4rem;
             outline: none;
             border: 0;
+            padding-left: 1.3rem;
         }
 
         &--btn {
@@ -33,6 +35,10 @@
             text-transform: uppercase;
             color: #fff;
             transform: translate(-3px, -2px);
+
+            &:hover {
+                color: #fff;
+            }
         }
     }
 }
