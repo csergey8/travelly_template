@@ -96,3 +96,24 @@ body {
     font-size: 1.5rem;
     width: 30rem;
     margin-top: 2rem; }
+
+.footer {
+  height: 100%;
+  background-color: #eeeeee; }
+  .footer__align {
+    display: flex;
+    padding: 3rem 0 2.6rem 0;
+    justify-content: space-between; }
+  .footer__rights {
+    color: #8b8b8b; }
+  .footer__menu {
+    display: flex;
+    justify-content: space-between; }
+    .footer__menu--item {
+      text-transform: uppercase;
+      font-size: 1.6rem;
+      font-weight: 400;
+      transition: all .3s; }
+      .footer__menu--item:hover {
+        cursor: pointer;
+        color: #fd4f32; }

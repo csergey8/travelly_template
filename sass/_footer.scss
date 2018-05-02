@@ -1,0 +1,33 @@
+.footer {
+    height: 100%;
+    background-color: #eeeeee;
+
+    &__align {
+        display: flex;
+        padding: 3rem 0 2.6rem 0;
+        justify-content: space-between;
+    }
+
+    &__rights {
+        color: #8b8b8b;
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+
+        &--item {
+            text-transform: uppercase;
+            font-size: 1.6rem;
+            font-weight: 400;
+            transition: all .3s;
+
+            &:hover {
+                cursor: pointer;
+                color: #fd4f32;
+            }
+        }
+
+        
+    }
+}
